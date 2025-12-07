@@ -15,18 +15,26 @@
 
 ## 🧠 주요 프로젝트
 
-- 🎛️ **[다이얼 금고](https://github.com/jihoon-studio/Project-Safe.git)**:    
-  YOLO + BoxMOT 기반으로 과속·졸음운전 차량을 인식하고 CAN 통신으로 알림 전송
+- 🎛️ **[STM32 기반 아날로그 다이얼 금고](https://github.com/jihoon-studio/Project-Safe.git)**:    
+  요약: 아날로그 다이얼 입력을 디지털로 변환해 암호를 인식하는 단독 보안 금고 시스템.
+  - 핵심 키워드: 다이얼 입력 처리, 보안 인증, 상태 기반 제어
+  - 핵심 기술: C, Atmega/Arduino, 인터럽트, STM32F4(HAL), ADC/PWM, FSM
 
 - 🛡️ **[금고 보안 서비스 시스템](https://github.com/jihoon-studio/Project-SSS.git)**:  
-  터틀봇 + 젯슨나노 + 안드로이드 앱 + QT 앱을 활용한 무인 벌레 퇴치 시스템
+  요약: 여러 금고의 잠금 상태를 중앙 제어기로 통합 관리하는 보안 연동 시스템.
+  - 핵심 키워드: 다중 디바이스 동기화, 보안 프로토콜, 중앙관리
+  - 핵심 기술: C/C++, UART, 통신 프로토콜 설계, 이벤트 기반 구조, DB
 
 - ⚓ **[Ctrl Sea Ctrl Vision](https://github.com/jihoon-studio/Project-Ctrl-C-Ctrl-V.git)**:
   **🏅 Intel Edge AI Academy 프로젝트 경진대회 – 최우수상 수상작**  
-  라즈베리파이4 기반의 터치 인터페이스 ATM
+  요약: 실시간 SLAM을 기반으로 경로 탐색과 주변 환경 인식을 지원하는 자율항해 보조 시스템.
+  - 핵심 키워드: 안개 제거 DCP / 이상 감지 EfficientNet-B3 / 낙상 감지 MoveNet Lightning / MQTT
+  - 핵심 기술: Python, OpenVINO, OpenCV, Jetson Nano, Raspberry Pi 5, Image Restoration(DCP/CLAHE), YOLOv8n, MoveNet, MQTT
 
 - ⚙ **[4비트 ALU 설계 with basys3 FPGA](https://github.com/jihoon-studio/Project-Verilog_ALU.git)**:  
   Verilog HDL 기반의 4비트 연산 논리장치 설계 및 Basys3 보드 구현 프로젝트
+  - 핵심 키워드: 조합 논리, 산술 연산, FPGA 구현
+  - 핵심 기술: Verilog, Vivado, Basys3, 테스트벤치, SDF 시뮬레이션
 
 ---
 
