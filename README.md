@@ -33,7 +33,7 @@
 ---
 
 ### ⚓ **[Ctrl Sea Ctrl Vision](https://github.com/jihoon-studio/Project-Ctrl-C-Ctrl-V.git)**:
-  **요약:** 실시간 SLAM을 기반으로 경로 탐색과 주변 환경 인식을 지원하는 자율항해 보조 시스템.
+  **요약:** 영상 기반 안개 제거, 이상 행동 감지, 낙상 탐지를 통합해 실시간으로 위험 상황을 감지하고 MQTT로 전송하는 항해 보조 시스템.
   
   **수상:** **🏅 Intel Edge AI Academy 프로젝트 경진대회 – 최우수상 수상작**  
   
