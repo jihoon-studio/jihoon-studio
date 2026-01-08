@@ -48,6 +48,17 @@
   - **핵심 키워드:** 조합 논리, 산술 연산, FPGA 구현
   - **핵심 기술:** Verilog, Vivado, Basys3, 테스트벤치, SDF 시뮬레이션
 
+---
+
+### 🧇📡 **[WAFFLE-FI (Wi-Fi Coverage Auto Analyzer)](https://github.com/jihoon-studio/Project-Waffle-Fi.git)**:
+  **요약:** ROS2 기반 자율주행 로봇이 실내를 이동하며 Wi-Fi RSSI를 수집하고,
+  강화학습을 통해 음영 지역을 탐색하여 Wi-Fi 커버리지를 히트맵으로 시각화하는 시스템.
+
+  **수상:** **🏅 Intel Edge AI Academy 최종 프로젝트 경진대회 – 최우수상 수상작**  
+
+  - **핵심 키워드:** Wi-Fi RSSI 측정, 자율 탐색, 강화학습, 실내 커버리지 분석, 히트맵 시각화
+  - **핵심 기술:** ROS2 (Humble), TurtleBot3 (Waffle), Embedded Linux, Wi-Fi Driver/Interface, Custom ROS msg/srv 설계, 강화학습 기반 탐색 로직 연동, MariaDB, Qt 기반 히트맵 시각화
+
 </div>
 
 ---
