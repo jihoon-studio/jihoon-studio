@@ -4,8 +4,9 @@
 
 ## 안녕하세요, 펌웨어 개발자 나지훈입니다. 👋
 
-🎓 현재 [Intel] Edge AI SW 8기 교육과정 수강 중.  
-🔧 Tech stack: Embedded Linux, Firmware, Protocol, Image processing, BSP  
+🎓 Intel Edge AI SW 8기 수강 중  
+🔧 Firmware / Embedded Linux / BSP / Device Driver / Protocol  
+   기반 시스템 설계 및 구현
 👇📫 How to reach me👇
 
 [<img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" width="90"/>](mailto:jibbong001@gmail.com)
@@ -32,6 +33,14 @@
 
 ---
 
+### 🐧 **[Linux Kernel Device Driver Mini Project](https://github.com/jihoon-studio/Project-Linux-Kernel-Device-Driver.git)**  
+**요약:** 여러 센서를 단일 시스템 콜(`read()`)로 전달하는 Linux Kernel Character Device Driver 구현 프로젝트.
+
+- **핵심 키워드:** Kernel Space / User Space 분리, 인터럽트 기반 입력 처리, 데이터 동기화  
+- **핵심 기술:** C, Linux Kernel Module, Character Device Driver, GPIO IRQ, I2C, 1-Wire
+
+---
+
 ### ⚓ **[Ctrl Sea Ctrl Vision](https://github.com/jihoon-studio/Project-Ctrl-C-Ctrl-V.git)**:
   **요약:** 영상 기반 안개 제거, 이상 행동 감지, 낙상 탐지를 통합해 실시간으로 위험 상황을 감지하고 MQTT로 전송하는 항해 보조 시스템.
   
@@ -39,14 +48,6 @@
   
   - **핵심 키워드:** 안개 제거 DCP / 이상 감지 EfficientNet-B3 / 낙상 감지 MoveNet Lightning / MQTT
   - **핵심 기술:** Python, OpenVINO, OpenCV, Jetson Nano, Raspberry Pi 5, Image Restoration(DCP/CLAHE), YOLOv8n, MoveNet, MQTT
-
----
-
-### ⚙ **[4비트 ALU 설계 with basys3 FPGA](https://github.com/jihoon-studio/Project-Verilog_ALU.git)**:  
-  **요약:** Verilog HDL 기반의 4비트 연산 논리장치 설계 및 Basys3 보드 구현 프로젝트
-  
-  - **핵심 키워드:** 조합 논리, 산술 연산, FPGA 구현
-  - **핵심 기술:** Verilog, Vivado, Basys3, 테스트벤치, SDF 시뮬레이션
 
 ---
 
@@ -58,7 +59,15 @@
 
   - **핵심 키워드:** Wi-Fi RSSI 측정, 자율 탐색, 강화학습, 실내 커버리지 분석, 히트맵 시각화
   - **핵심 기술:** ROS2 (Humble), TurtleBot3 (Waffle), Embedded Linux, Wi-Fi Driver/Interface, Custom ROS msg/srv 설계, 강화학습 기반 탐색 로직 연동, MariaDB, Qt 기반 히트맵 시각화
+    
+---
 
+### ⚙ **[4비트 ALU 설계 with basys3 FPGA](https://github.com/jihoon-studio/Project-Verilog_ALU.git)**:  
+  **요약:** Verilog HDL 기반의 4비트 연산 논리장치 설계 및 Basys3 보드 구현 프로젝트
+  
+  - **핵심 키워드:** 조합 논리, 산술 연산, FPGA 구현
+  - **핵심 기술:** Verilog, Vivado, Basys3, 테스트벤치, SDF 시뮬레이션
+    
 </div>
 
 ---
