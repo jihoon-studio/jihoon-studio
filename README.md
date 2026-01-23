@@ -4,7 +4,7 @@
 
 ## 안녕하세요, 펌웨어 개발자 나지훈입니다. 👋
 
-🎓 Intel Edge AI SW 8기 수강 중  
+🎓 Intel Edge AI SW 8기 수료  
 🔧 Firmware / Embedded Linux / BSP / Device Driver / Protocol  
    기반 시스템 설계 및 구현
 👇📫 How to reach me👇
@@ -17,7 +17,7 @@
 
 ## 🧠 주요 프로젝트
 
-### 🔢 **[STM32 기반 아날로그 다이얼 금고](https://github.com/jihoon-studio/Project-Safe.git)**  
+### 🔢 **[STM32 기반 아날로그 다이얼 금고](https://github.com/jihoon-studio/Project-Safe.git)** - 2인 프로젝트(2025.08.05 ~ 2025.08.08)
 **요약:** 아날로그 다이얼 입력을 디지털로 변환해 암호를 인식하는 단독 보안 금고 시스템.
 
 - **핵심 키워드:** 다이얼 입력 처리, 보안 인증, 상태 기반 제어  
@@ -25,7 +25,7 @@
 
 ---
 
-### 🛡️ **[금고 보안 서비스 시스템](https://github.com/jihoon-studio/Project-SSS.git)**:  
+### 🛡️ **[금고 보안 서비스 시스템](https://github.com/jihoon-studio/Project-SSS.git)** - 2인 프로젝트(2025.08.17 ~ 2025.08.25)
   **요약:** 여러 금고의 잠금 상태를 중앙 제어기로 통합 관리하는 보안 연동 시스템.
   
   - **핵심 키워드:** 다중 디바이스 동기화, 보안 프로토콜, 중앙관리
@@ -33,7 +33,7 @@
 
 ---
 
-### 🐧 **[Linux Kernel Device Driver Mini Project](https://github.com/jihoon-studio/Project-Linux-Kernel-Device-Driver.git)**  
+### 🐧 **[Linux Kernel Device Driver Mini Project](https://github.com/jihoon-studio/Project-Linux-Kernel-Device-Driver.git)** - 2인 프로젝트(2025.12.25 ~ 2025.12.29)
 **요약:** 여러 센서를 단일 시스템 콜(`read()`)로 전달하는 Linux Kernel Character Device Driver 구현 프로젝트.
 
 - **핵심 키워드:** Kernel Space / User Space 분리, 인터럽트 기반 입력 처리, 데이터 동기화  
@@ -41,7 +41,7 @@
 
 ---
 
-### ⚓ **[Ctrl Sea Ctrl Vision](https://github.com/jihoon-studio/Project-Ctrl-C-Ctrl-V.git)**:
+### ⚓ **[Ctrl Sea Ctrl Vision](https://github.com/jihoon-studio/Project-Ctrl-C-Ctrl-V.git)**  - 5인 프로젝트(2025.09.26 ~ 2025.10.22)
   **요약:** 영상 기반 안개 제거, 이상 행동 감지, 낙상 탐지를 통합해 실시간으로 위험 상황을 감지하고 MQTT로 전송하는 항해 보조 시스템.
   
   **수상:** **🏅 Intel Edge AI Academy 프로젝트 경진대회 – 최우수상 수상작**  
@@ -51,7 +51,7 @@
 
 ---
 
-### 🧇📡 **[WAFFLE-FI (Wi-Fi Coverage Auto Analyzer)](https://github.com/jihoon-studio/Project-Waffle-Fi.git)**:
+### 🧇📡 **[WAFFLE-FI (Wi-Fi Coverage Auto Analyzer)](https://github.com/jihoon-studio/Project-Waffle-Fi.git)** - 5인 프로젝트(2025.12.15 ~ 2026.01.05)
   **요약:** ROS2 기반 자율주행 로봇이 실내를 이동하며 Wi-Fi RSSI를 수집하고,
   강화학습을 통해 음영 지역을 탐색하여 Wi-Fi 커버리지를 히트맵으로 시각화하는 시스템.
 
@@ -62,7 +62,16 @@
     
 ---
 
-### ⚙ **[4비트 ALU 설계 with basys3 FPGA](https://github.com/jihoon-studio/Project-Verilog_ALU.git)**:  
+### 🔗 **[RT-CAN Gateway System](https://github.com/jihoon-studio/Project-RT-CAN-Gateway-System)** - 3인 프로젝트(2026.01.14 ~ 2026.01.16)
+
+**요약:** FreeRTOS 기반 CAN 네트워크에서 분산 노드 데이터를 중앙 게이트웨이에서 제어·통합하고 Ethernet으로 상위 시스템에 전달하는 임베디드 네트워크 프로젝트  
+
+- **핵심 키워드:** CAN 통신, RTOS 태스크 제어, 네트워크 게이트웨이, Control Plane 개념  
+- **핵심 기술:** STM32F4, FreeRTOS, CMSIS-RTOS, HAL, CAN Bus, CAN Filter, Ethernet(UDP), LwIP
+
+---
+
+### ⚙ **[4비트 ALU 설계 with basys3 FPGA](https://github.com/jihoon-studio/Project-Verilog_ALU.git)** - 개인 프로젝트(2025.12.01 ~ 2025.12.03) 
   **요약:** Verilog HDL 기반의 4비트 연산 논리장치 설계 및 Basys3 보드 구현 프로젝트
   
   - **핵심 키워드:** 조합 논리, 산술 연산, FPGA 구현
